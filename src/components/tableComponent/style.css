@@ -1,0 +1,13 @@
+.closed{
+    background: #ccc;
+}
+.flex-container{
+    display: flex;
+    margin-bottom: 20px;
+}
+.flex-container .form-floating{
+    width: 95%;
+}
+.flex-container .form-select{
+    width: 85%;
+}
