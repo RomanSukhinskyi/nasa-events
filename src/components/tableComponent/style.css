@@ -3,11 +3,16 @@
 }
 .flex-container{
     display: flex;
-    margin-bottom: 20px;
+    max-width: 95%;
+    margin: 15px auto;
+    justify-content: space-between;
 }
-.flex-container .form-floating{
-    width: 95%;
-}
+
 .flex-container .form-select{
-    width: 85%;
+height: 38px;
+width: 49%;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    --bs-table-accent-bg: transparent !important;
+    color: var(--bs-table-striped-color);
 }

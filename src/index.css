@@ -1,3 +1,4 @@
-.table>:not(caption)>*>*{
-    color: red
+.table{
+    max-width: 95%;
+    margin: auto;
 }
