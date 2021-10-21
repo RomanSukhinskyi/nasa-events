@@ -14,7 +14,7 @@ const TableComponent = () => {
   const naturalEvents = useSelector((state) => state.naturalEvents.data);
   const loading = useSelector((state) => state.naturalEvents.loading);
 
-  useEffect(() => {
+  React.useEffect(() => {
     dispatch(fetchNaturalEvents());
     if (naturalEvents) {
       getCategory(naturalEvents);

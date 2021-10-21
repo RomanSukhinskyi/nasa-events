@@ -3,7 +3,7 @@ import "./style.css";
 
 const Loader = () => {
   return (
-    <svg>
+    <svg className="loader">
       <circle
         cx="50"
         cy="50"

@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+
 import { trimDate } from "../../utils/utils.js";
 import Table from "react-bootstrap/Table";
 import { Link } from "react-router-dom";
@@ -35,6 +37,10 @@ const TableRow = ({ naturalEvents }) => {
       </tbody>
     </Table>
   );
+};
+
+TableRow.propTypes = {
+  naturalEvents: PropTypes.array,
 };
 
 export default TableRow;
